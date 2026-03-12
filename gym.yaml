@@ -1,0 +1,6 @@
+path: E:/Siddy/Object Detection/gym_dataset  # dataset root
+train: images/train
+val: images/val
+
+nc: 5  # number of classes
+names: ['treadmill', 'bench', 'dumbbell', 'barbell', 'exercise_bike']  # class names
