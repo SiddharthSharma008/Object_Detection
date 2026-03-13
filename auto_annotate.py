@@ -129,6 +129,6 @@ def auto_annotate_gym_equipment(images_dir, output_labels_dir):
 
 if __name__ == "__main__":
     images_dir = r"E:\Siddy\Object Detection\GymFrames"
-    labels_dir = r"E:\Siddy\Object Detection\GymFrames"  # Save .txt files alongside images
+    labels_dir = r"E:\Siddy\Object Detection\GymFrames\Labels"  # Save .txt files alongside images
     
     auto_annotate_gym_equipment(images_dir, labels_dir)
